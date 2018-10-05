@@ -11,7 +11,6 @@ using std::priority_queue;
 using std::make_pair;
 
 void update_reachable(vector<vector<int> > &adj, int s, vector<int> &reachable) {
-  //write your code her
   vector<int> dist(adj.size(),-1);
   dist[s] = 0;
   queue<int> Q;
@@ -32,7 +31,6 @@ void update_reachable(vector<vector<int> > &adj, int s, vector<int> &reachable) 
 }
 
 void BFS(vector<vector<int> > &adj, int s, vector<int> &shortest) {
-  //write your code her
   vector<int> dist(adj.size(),-1);
   dist[s] = 0;
   queue<int> Q;
